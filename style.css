@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 227, 207);
+    background-image: url(img/background_test.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    color: bisque;
+}
+
+a:link{
+    color: bisque;
+
+}
+.bloc_page {
+    width: 100%;
+    margin: auto;
+    font-size: 1.4rem;
+    background-repeat: repeat;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+header{
+    background-color: #5e654a;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    padding: 1.5rem;
+    border: 0.5rem #c89d65;
+    border-style: none none solid ;
+    box-shadow: 10px 5px 100px black;
+}
+
+header a{
+    font-size: xx-large;
+}
+
+header img{
+    border: 0.4rem solid #c89d65;
+    background-color: rgb(243, 227, 207);
+    border-radius: 50% 50% ;
+}
+
+/*footer {
+    background-color: #000;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 2%;
+    font-size: 1.4rem;
+}*/
