@@ -1,22 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-html{
+html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(243, 227, 207);
     background-image: url(img/background_test.png);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     color: bisque;
     display: flex;
     justify-content: center;
@@ -24,15 +24,24 @@ body{
     align-items: center;
 }
 
-a{
+a {
     color: bisque;
+    transition: 0.3s;
 }
 
-a:link{
+a:link {
     color: bisque;
 
 }
+
+a:hover {
+    color: rgb(145, 129, 111);
+}
+
 .bloc_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     margin: auto;
     font-size: 1.4rem;
@@ -41,7 +50,7 @@ a:link{
         "Lucida Sans", Arial, sans-serif;
 }
 
-header{
+header {
     background-color: #5e654a;
     border-radius: 0px 0px 30px 30px;
     display: flex;
@@ -51,25 +60,48 @@ header{
     margin-bottom: 50px;
     padding: 1.5rem;
     border: 0.5rem #c89d65;
-    border-style: none none solid ;
+    border-style: none none solid;
     box-shadow: 10px 5px 100px black;
 }
 
-header a{
+header a {
     font-size: xx-large;
 }
 
-header img{
+header img {
     border: 0.4rem solid #c89d65;
     background-color: rgb(243, 227, 207);
-    border-radius: 50% 50% ;
+    border-radius: 50% 50%;
+
 }
 
-/*footer {
+section {
+    display: flex;
+    color: red;
+    justify-content: center;
+    background-color: bisque;
+    width: 70%;
+    border: 0.3rem solid #5e654a;
+    border-radius: 20px;
+    box-shadow: 10px 5px 100px black;
+
+}
+
+.présentation {
+    display: flex;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    height: 50px;
     background-color: #000;
     text-align: center;
     color: rgb(255, 255, 255);
     width: 100%;
     padding: 2%;
-    font-size: 1.4rem;
-}*/
+    font-size: 1.2rem;
+}
