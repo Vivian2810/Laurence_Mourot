@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Comment faire une ligne horizontale avec un mot au milieu en HTML ?</title>
+<style> 
+.ligne_horizontal { 
+display: flex; 
+flex-direction: row; 
+} 
+
+.ligne_horizontal:before, 
+.ligne_horizontal:after { 
+content: ""; 
+flex: 1 1; 
+border-bottom: 2px solid #000; 
+margin: auto; 
+} 
+</style> 
+</head>
+<body>
+<div class="ligne_horizontal">1FORMATIK.com</div> 
+</body>
+</html>
