@@ -143,6 +143,20 @@ a:hover {
     text-shadow: 5px 2px 20px #c89d65;
 }
 
+.activité__nom a {
+    color: #c89d65;
+    transform: 0.3;
+}
+
+.activité__nom a:link{
+    color: #c89d65;
+}
+
+.activité__nom a:hover{
+    color: #c89d6561;
+    text-shadow: 20px 10px 30px #c89d65;
+}
+
 .rétrop{
     padding: 5rem 0 2rem 0;
     display: flex;
