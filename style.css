@@ -63,22 +63,22 @@ header {
 
 header a {
     font-size: xx-large;
-    color: bisque;
+    color: beige;
     transition: 0.3s;
 }
 
 header a:link {
-    color: bisque;
+    color: beige;
 
 }
 
 header a:hover {
-    color: rgb(145, 129, 111);
+    color: rgb(250, 234, 215,0.8);
 }
 
 header img {
     border: 0.4rem solid #c89d65;
-    background-color: rgb(243, 227, 207);
+    background-color: rgb(250, 234, 215);
     border-radius: 50% 50%;
 
 }
@@ -87,7 +87,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: bisque;
+    background-color: rgba(245, 245, 220, 0.75);
     color: #5e654a;
     width: 70%;
     border: 0.3rem solid #5e654a;
@@ -144,17 +144,17 @@ a:hover {
 }
 
 .activité__nom a {
-    color: #c89d65;
+    color: rgb(255, 194, 119);
     transform: 0.3;
 }
 
 .activité__nom a:link{
-    color: #c89d65;
+    color: rgb(255, 194, 119);
 }
 
 .activité__nom a:hover{
-    color: #c89d6561;
-    text-shadow: 20px 10px 30px #c89d65;
+    color: rgba(255, 194, 119, 0.534);
+    text-shadow: 10px 5px 40px #c89d65;
 }
 
 .rétrop{
@@ -176,6 +176,7 @@ a:hover {
     background-color: beige;
     border: 0.3rem solid #5e654a;
     border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
 }
 
 .avis__text h3{
