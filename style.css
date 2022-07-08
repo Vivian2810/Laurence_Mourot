@@ -61,7 +61,7 @@ header {
     box-shadow: 10px 5px 100px black;
 }
 
-header a {
+.titre {
     font-size: xx-large;
     color: beige;
     transition: 0.3s;
@@ -247,4 +247,53 @@ body::-webkit-scrollbar-thumb {
     background-color: bisque; /* color of the scroll thumb */
     border: 0.2rem solid #c89d65;
     border-radius: 20px; /* roundness of the scroll thumb */
+}
+
+@media screen and (max-width : 767px ) {
+
+   
+    header{
+        justify-content: center;
+        align-items: center;
+    }
+
+    header img {
+        border: 0.2rem solid #c89d65;
+        width: 10%;
+    }
+    
+    .titre {
+       display: none;
+    }
+
+    section{
+        width: 90%;
+
+    }
+    
+    .presentation__text{
+        margin: 0 1rem 0 1rem;
+    }
+
+    .activité div{
+        height: 130px;
+        width: 130px;
+    }
+
+    .avis {
+        display: block;
+    }
+    
+    .avis__text{
+        margin: 2rem 3rem 2rem 3rem ;
+    }
+
+    .contact__lien{
+        justify-content: space-around;
+    }
+
+    .présentation img {
+        width: 30%;
+    }
+
 }
